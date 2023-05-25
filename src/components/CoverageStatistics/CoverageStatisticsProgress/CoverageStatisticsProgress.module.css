@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.name {
+    font-family: SBSans;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333F48;
+}
+
+.description {
+    font-family: SBSans;
+    font-weight: 600;
+    font-size: 24px;
+    color: #333F48;
+}
+
+.progressContainer {
+    height: 8px;
+    border-radius: 8px;
+    background-color: #E8ECF2;
+}
+
+.progress{
+    height: 8px;
+    background-color: #42E3B4;
+    border-radius: 8px;
+}

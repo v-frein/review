@@ -1,0 +1,17 @@
+.taxonomyHeading {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 16px 0px;
+}
+
+.nameContainer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.buttonsContainers {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}

@@ -1,0 +1,32 @@
+.container {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+}
+
+.container > li, .container > li > a {
+    cursor: pointer;
+    user-select: none;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333F48;
+}
+
+.dropdownList {
+    width: 200px;
+    display: none;
+    position: absolute;
+    background-color: #222222;
+    top: 48px;
+}
+
+.dropdownList > li {
+    padding: 4px;
+    border-bottom: 1px solid #dedede;
+}
+
+.other:hover .dropdownList {
+    display: block;
+}

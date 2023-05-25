@@ -1,0 +1,9 @@
+.button {
+    border: 1px solid rgba(51, 63, 72, 0.25);
+    padding: 6px;
+    display: flex;
+    user-select: none;
+    cursor: pointer;
+    gap: 4px;
+    border-radius: 4px;
+}

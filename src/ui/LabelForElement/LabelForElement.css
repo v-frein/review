@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    gap: 8px;
+}
+
+.heading {
+    font-size: 16px;
+    font-family: SBSans;
+    font-weight: 400;
+    color: #333F48;
+}
+
+.top {
+    flex-direction: column;
+}
+
+.right {
+    text-align: right;
+}

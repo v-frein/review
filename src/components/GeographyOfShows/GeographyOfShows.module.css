@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.description {
+    font-family: SBSans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333F48;
+}
+
+.earlySelectionsContainer {
+    display: flex;
+}

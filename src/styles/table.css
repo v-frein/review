@@ -1,0 +1,22 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+th {
+    padding: 8px;
+}
+
+tr {
+    border-bottom: 1px solid #E2E8F0;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+}
+
+tr:hover:not(:first-child){
+    background-color: rgb(216, 216, 216);
+}

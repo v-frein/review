@@ -1,0 +1,21 @@
+.BuildingAndUnloadingBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.tableName {
+    background-color: #fdedf1;
+    color: #bf758b;
+}
+
+.tableRules {
+    margin-top: 4px;
+    background-color: #dff0d9;
+    color: black;
+    padding: 4px;
+}
+
+.tableRules > p {
+    line-height: 1.2rem;
+}

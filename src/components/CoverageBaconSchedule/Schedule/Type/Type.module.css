@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.type{
+    border: 2px solid rgb(93, 135, 90);
+    width: 40px;
+    height: 10px;
+}

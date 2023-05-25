@@ -1,0 +1,28 @@
+.headerContainer {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(51, 63, 72, 0.25);
+    background: white;
+}
+
+.toggleContainer {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle{
+    transition: 0.5s;
+    transform: rotate(-90deg);
+    user-select: none;
+    cursor: pointer;
+}
+
+.contentContainer {
+    background: #F3F3F3;
+    height: 0px;
+    overflow: hidden;
+    transition: 0.1s;
+}

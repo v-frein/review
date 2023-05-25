@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.heading {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.formInput {
+    flex-grow: 1;
+}
+
+.checkBoxContainer {
+    padding: 12px 0px 12px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.controlsContainer {
+    justify-content: space-between;
+    display: flex;
+}
+
+.controlsContainer > div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.controlsContainer > div > a, .controlsContainer > div > a:active, .controlsContainer > div > a:visited {
+    text-decoration: none;
+    font-size: 18px;
+    color: #6686a3;
+}

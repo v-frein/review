@@ -1,0 +1,37 @@
+.container {
+    width: 370px;
+    box-sizing: border-box;
+    padding: 24px;
+    background-color: #F6F9FD;
+    color: #333F48;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(29, 39, 115, 0.25);
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.coverageCount {
+    font-family: SBSans;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.coverageCount > p > span {
+    font-size: 40px;
+}
+
+.coverageStatus {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: SBSans;
+    font-weight: 400;
+}
+
+
+.day {
+    font-family: SBSans;
+    font-weight: 500;
+    font-size: 16px;
+    color: #333F48;
+}

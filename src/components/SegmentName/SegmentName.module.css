@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.tag {
+    align-self: flex-start;
+}

@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.selectWithoutDropdown {
+    width: 100%;
+}
+
+.coverageContainer {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+}
+
+.controlsContainer {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controlsContainer > a, .controlsContainer > a:active, .controlsContainer > a:visited {
+    text-decoration: none;
+    font-size: 18px;
+    color: #6686a3;
+}
